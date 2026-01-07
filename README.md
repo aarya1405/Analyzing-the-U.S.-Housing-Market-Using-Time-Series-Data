@@ -1,5 +1,5 @@
 **Methodology & Technical Approach**
--Analyzed U.S. housing market time-series data from 1963 to 2025 using national-level economic indicators
+-Analyzed U.S. housing market time-series data from 1963 to 2025 using national-level economic indicators.
 -Sourced all primary datasets from Federal Reserve Economic Data (FRED), including:
     -Median home prices
     -30-year fixed mortgage rates
