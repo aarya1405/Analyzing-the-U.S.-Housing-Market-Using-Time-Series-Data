@@ -2,7 +2,7 @@
 -Analyzed U.S. housing market time-series data from 1963 to 2025 using national-level economic indicators.
 -Sourced all primary datasets from Federal Reserve Economic Data (FRED), including:
     -Median home prices
-    -30-year fixed mortgage rates
+    -30-year fixed mortgage rates.
     -Housing inventory (months of supply)
 -Standardized all datasets to a quarterly frequency to ensure temporal alignment across metrics
 -Cleaned and validated time-series data by handling missing values, resampling inconsistencies, and datatype conversions
