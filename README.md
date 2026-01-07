@@ -1,45 +1,45 @@
 **Methodology & Technical Approach**
--Analyzed U.S. housing market time-series data from 1963 to 2025 using national-level economic indicators.
--Sourced all primary datasets from Federal Reserve Economic Data (FRED), including:
-    -Median home prices
-    -30-year fixed mortgage rates.
-    -Housing inventory (months of supply)
--Standardized all datasets to a quarterly frequency to ensure temporal alignment across metrics
--Cleaned and validated time-series data by handling missing values, resampling inconsistencies, and datatype conversions
--Engineered derived features to support trend and affordability analysis:
-    -Year-over-year growth rates
-    -Moving averages (4-quarter and 12-quarter)
-    -Housing Affordability Index (HAI)
-    -Lag-adjusted comparisons between interest rates and prices
--Conducted exploratory time-series analysis to identify long-term trends and structural changes
--Analyzed historical price growth, interest rate cycles, and inventory fluctuations across six decades
--Identified sustained upward price trends with cyclical corrections driven by macroeconomic conditions
--Performed correlation and regression analysis to quantify inter-variable relationships
--Identified a strong inverse relationship between mortgage rates and home prices (r ≈ −0.60)
--Estimated that a one-percentage-point increase in mortgage rates corresponds to an approximate $24,000 decline in median home prices
--Observed mild positive correlation between mortgage rates and housing inventory, indicating slower market absorption at higher borrowing costs
--Applied moving-average smoothing and seasonal decomposition to evaluate cyclicality and seasonality
--Identified multi-year housing cycles spanning approximately 8–10 years
--Confirmed that short-term seasonality is minimal compared to long-term credit-driven cycles
--Analyzed the impact of major economic events on housing dynamics:
-    -2008 Global Financial Crisis: sharp price correction, inventory spike, and prolonged recovery
-    -COVID-19 pandemic: record-low interest rates, rapid price acceleration, and severe supply constraints
-    -2022–2023 rate hikes: affordability erosion and demand slowdown
--Conducted regional and comparative analysis to highlight market divergence
--Compared high-volatility markets (e.g., San Francisco) with more stable markets (e.g., Detroit)
--Identified growing generational and regional affordability disparities
--Developed advanced visualizations to communicate insights:
-    -Time-series line charts with event annotations
-    -Correlation heatmaps
-    -Scatter plots with regression trends
-    -Moving-average and decomposition plots
-    -State-level housing price change maps
--Consolidated findings into a structured analytical report emphasizing affordability, policy impacts, and long-term market risk
+- Analyzed U.S. housing market time-series data from 1963 to 2025 using national-level economic indicators.
+- Sourced all primary datasets from Federal Reserve Economic Data (FRED), including:
+    - Median home prices
+    - 30-year fixed mortgage rates.
+    - Housing inventory (months of supply)
+- Standardized all datasets to a quarterly frequency to ensure temporal alignment across metrics
+- Cleaned and validated time-series data by handling missing values, resampling inconsistencies, and datatype conversions
+- Engineered derived features to support trend and affordability analysis:
+    - Year-over-year growth rates
+    - Moving averages (4-quarter and 12-quarter)
+    - Housing Affordability Index (HAI)
+    - Lag-adjusted comparisons between interest rates and prices
+- Conducted exploratory time-series analysis to identify long-term trends and structural changes
+- Analyzed historical price growth, interest rate cycles, and inventory fluctuations across six decades
+- Identified sustained upward price trends with cyclical corrections driven by macroeconomic conditions
+- Performed correlation and regression analysis to quantify inter-variable relationships
+- Identified a strong inverse relationship between mortgage rates and home prices (r ≈ −0.60)
+- Estimated that a one-percentage-point increase in mortgage rates corresponds to an approximate $24,000 decline in median home prices
+- Observed mild positive correlation between mortgage rates and housing inventory, indicating slower market absorption at higher borrowing costs
+- Applied moving-average smoothing and seasonal decomposition to evaluate cyclicality and seasonality
+- Identified multi-year housing cycles spanning approximately 8–10 years
+- Confirmed that short-term seasonality is minimal compared to long-term credit-driven cycles
+- Analyzed the impact of major economic events on housing dynamics:
+    - 2008 Global Financial Crisis: sharp price correction, inventory spike, and prolonged recovery
+    - COVID-19 pandemic: record-low interest rates, rapid price acceleration, and severe supply constraints
+    - 2022–2023 rate hikes: affordability erosion and demand slowdown
+- Conducted regional and comparative analysis to highlight market divergence
+- Compared high-volatility markets (e.g., San Francisco) with more stable markets (e.g., Detroit)
+- Identified growing generational and regional affordability disparities
+- Developed advanced visualizations to communicate insights:
+    - Time-series line charts with event annotations
+    - Correlation heatmaps
+    - Scatter plots with regression trends
+    - Moving-average and decomposition plots
+    - State-level housing price change maps
+- Consolidated findings into a structured analytical report emphasizing affordability, policy impacts, and long-term market risk
 
 **Technical Emphasis**
--Long-horizon time-series analysis
--Economic indicator integration (FRED data)
--Correlation and regression modeling
--Cyclical and trend decomposition
--Policy and event-driven market interpretation
--Visual storytelling for macroeconomic data
+- Long-horizon time-series analysis
+- Economic indicator integration (FRED data)
+- Correlation and regression modeling
+- Cyclical and trend decomposition
+- Policy and event-driven market interpretation
+- Visual storytelling for macroeconomic data
